@@ -1,7 +1,10 @@
 #iframeLauncher
 
 A tiny library to load an iframe into an overlay.
+
 This project was heavily inspired by [survey-button](https://bitbucket.org/kallelat/survey-button/src)-library.
+
+[LIVE DEMO](http://vkentta.com/iframeLauncher/demo/)
 
 ##Installation and usage
 
