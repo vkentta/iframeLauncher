@@ -1,0 +1,17 @@
+{
+  "name": "iframeLauncher",
+  "version": "1.0.0",
+  "description": "A tiny library to load an iframe into an overlay",
+  "main": "iframeLauncher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ville Kentta",
+  "license": "MIT",
+  "devDependencies": {
+    "minify": "^2.0.9"
+  },
+  "scripts": {
+    "build": "mkdir build && minify src/iframeLauncher.js > build/iframeLauncher.min.js && minify src/iframeLauncher.css > build/iframeLauncher.min.css"
+  }
+}
